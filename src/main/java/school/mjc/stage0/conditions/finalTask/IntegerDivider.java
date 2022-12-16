@@ -13,6 +13,8 @@ public class IntegerDivider {
         }
         else if(checkOut != dividend){
             System.out.println("cannot be divided completely");
-        }}}
+        }
+        }
     }
 }
+
