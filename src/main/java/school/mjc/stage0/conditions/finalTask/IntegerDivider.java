@@ -4,8 +4,8 @@ public class IntegerDivider {
     public void printCompletelyDivided(int dividend, int divider) {
         if (dividend == 0 || divider == 0){
             System.out.println("division by zero");
-            System.exit(0);
         }
+        else {
         int result  = dividend / divider;
         int checkOut = result * divider;
         if(checkOut == dividend){
@@ -13,6 +13,6 @@ public class IntegerDivider {
         }
         else if(checkOut != dividend){
             System.out.println("cannot be divided completely");
-        }
+        }}}
     }
 }
